@@ -1,0 +1,59 @@
+@font-face{
+    font-family: Roboto-Bold;
+    src: url('./fonts/roboto/Roboto-Bold.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 65px;
+    background-color: #3f3f3f ;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-color: #c0c0c0;
+    height: 60px;
+    width: 100%;
+    top:10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 5px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLink{
+    font-family: 'Roboto-Bold';
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    height: 100%;
+    margin-right: 20%;
+}
+
+.navMenu{
+    display: flex;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.navMenuItem{
+    font-size: 18px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.navMenuLink{
+padding: 8px 12px;
+border-radius: 3px;
+}
+.navMenuLink:hover{
+    background-color: #3f3f3f;
+    transition: 0.5s;
+}
