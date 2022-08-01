@@ -1,13 +1,19 @@
 @font-face{
     font-family: Roboto-Bold;
     src: url('./fonts/roboto/Roboto-Bold.ttf');
+
 }
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     padding: 0;
     padding-top: 65px;
     background-color: #3f3f3f ;
 }
+
+/* HEADER */
 
 .header{
     display: flex;
@@ -15,45 +21,99 @@ body{
     justify-content: center;
     background-color: #c0c0c0;
     height: 60px;
-    width: 100%;
+    width: 80%;
     top:10px;
-    left: 10px;
-    right: 10px;
     border-radius: 5px;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
-}
-
-.navLink{
-    font-family: 'Roboto-Bold';
-    color: #fff;
-    text-decoration: none;
+    align-items: center;
+    width: 70%;
 }
 
 .logo{
-    height: 100%;
-    margin-right: 20%;
+    height: 70%;
 }
 
 .navMenu{
     display: flex;
-    margin-right: 20px;
+    gap: 10px;
     list-style: none;
 }
 
-.navMenuItem{
+.navMenu li{
     font-size: 18px;
-    margin: 0 10px;
     text-transform: uppercase;
 }
-.navMenuLink{
-padding: 8px 12px;
-border-radius: 3px;
+
+.navMenu li a{
+    font-family: 'Roboto-Bold';
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
 }
-.navMenuLink:hover{
+.navMenu li a:hover{
     background-color: #3f3f3f;
     transition: 0.5s;
+}
+
+
+/* Section HERO */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(63,63,63,1) 40%, rgba(63,63,63,1) 60%, rgba(192,192,192,1) 100%);
+    width: 70%;
+    padding: 5vh;
+    margin: 5vh 0;
+    border-radius: 20px;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.text-hero-container p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto-Bold';
+    color: #fff;
+}
+
+.text-hero-container button{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto-Bold';
+    color: #fff;
+    background-color: #3f3f3f;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-hero-container button:hover{
+    background-color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-image{
+    height: 100%;
+    border-radius: 40%;
 }
