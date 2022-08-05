@@ -65,10 +65,12 @@ body{
 /* Section HERO */
 
 .hero{
+    min-width: 400px;
     display: flex;
     justify-content: center;
     background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(63,63,63,1) 40%, rgba(63,63,63,1) 60%, rgba(192,192,192,1) 100%);
     width: 60%;
+    height: 70vh;
     padding: 5vh;
     margin: 5vh 0;
     border-radius: 20px;
@@ -79,6 +81,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .text-hero-container{
@@ -115,7 +119,7 @@ body{
 }
 
 .hero-image{
-    height: 100%;
+    width: 40%;
     border-radius: 40%;
 }
 
@@ -123,6 +127,7 @@ body{
 
 .info-text{
     width: 60%;
+    margin: 5vh 0;
     font-size: 18px;
     text-align: center;
     font-family: 'Roboto-Bold';
@@ -143,4 +148,18 @@ body{
         font-size: 12px;
     }
 
+}
+
+@media screen and (max-width: 814px){
+    .hero-image{
+        width: 60%;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(63,63,63,1) 40%, rgba(63,63,63,1) 60%, rgba(192,192,192,1) 100%);
+        width: 100%;
+        border-radius: 20px;
+        
+    }
 }
