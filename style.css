@@ -128,3 +128,19 @@ body{
     font-family: 'Roboto-Bold';
     color: #fff;
 }
+
+@media screen and (max-width: 1110px){
+
+    .info-text{
+        font-size: 12px;
+    }
+
+    .text-hero-container button{
+        font-size: 12px;
+        width: 60px;
+    }
+    .text-hero-container p{
+        font-size: 12px;
+    }
+
+}
