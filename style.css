@@ -134,6 +134,73 @@ body{
     color: #fff;
 }
 
+/* Cards */
+
+.cards{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+    color: #000;
+}
+
+.cards div{
+    width: 30%;
+    padding: 2vh;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+
+.cards h3{
+    font-size: 22px;
+    color: #3f3f3f;
+}
+.cards p{
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+/* contacto */
+
+.contact{
+    margin-top: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto-Bold';
+}
+
+.contact div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.contact p{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* footer  */
+
+.footer{
+    margin-top: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto-Bold';
+    color: #fff;
+}
+
 @media screen and (max-width: 1110px){
 
     .info-text{
